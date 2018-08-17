@@ -1,4 +1,4 @@
-FROM node:9-alpine
+FROM arm32v7/node:9-slim
 LABEL maintainer "jf.arseneau@gmail.com"
 
 COPY . /antennas
